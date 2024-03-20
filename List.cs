@@ -54,6 +54,8 @@ namespace DaoDucManh_21115053120332_LinQSearch
                 Console.WriteLine($"Position:\n Name: {item.PositionName}, Description: {item.PositionDesciption}");
                 Console.WriteLine($"Department:\n Name: {item.DepartmentName}, Description: {item.DepartmentDescription}");
             }
+
+            Console.ReadLine();
         }
     }
 }
